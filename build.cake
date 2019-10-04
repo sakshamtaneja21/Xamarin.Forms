@@ -47,7 +47,7 @@ var ANDROID_HOME = EnvironmentVariable ("ANDROID_HOME") ??
     (IsRunningOnWindows () ? "C:\\Program Files (x86)\\Android\\android-sdk\\" : "");
 
 string monoMajorVersion = "6.6.0";
-string monoPatchVersion = "107";
+string monoPatchVersion = "104";
 string monoVersion = $"{monoMajorVersion}.{monoPatchVersion}";
 
 string monoSDK_windows = $"https://download.mono-project.com/archive/{monoMajorVersion}/windows-installer/mono-{monoVersion}-x64-0.msi";
